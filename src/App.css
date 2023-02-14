@@ -1,0 +1,99 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  
+  text-align: center;
+  background-color: #FFFFFF;
+  width: 550px;
+
+}
+*{
+  box-sizing: border-box;
+ 
+}
+body{
+  background-color: black;
+}
+
+.nav{
+ 
+  width: 550px;
+  background-color: #F55A5A;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav--img{
+  padding: 10px;
+  align-items: center;
+}
+.nav--title{
+  color:#FFFFFF ;
+  font-weight: 500;
+font-size: 14.4608px;
+
+}
+
+/* MAIN */
+
+.main{
+  display: flex;
+  align-items: center;
+  padding: 30px;
+}
+
+.main--img{
+width: 125px;
+height: 168px;
+border-radius: 5px;
+}
+.main--pin{
+  padding-right: 6px;
+}
+.main--location{
+  font-weight: 400;
+  /* display: inline-block; */
+font-size: 14px;
+letter-spacing: 0.17em;
+color: #2B283A;
+}
+.main--side{
+  text-align: justify;
+  height: 158;
+  padding: 20px;
+
+}
+.main--title{
+margin: 0;
+  font-weight: 700;
+font-size: 25px;
+line-height: 30px;
+padding-top: 8px;
+padding-bottom: 8px;
+}
+.main--google > a{
+  font-weight: 400;
+  color: #2B283A;
+  padding-left: 6px;
+  font-size: 10.24px;
+  
+}
+.main--start_date{
+  font-weight: 700;
+  font-size: 10.24px;
+
+}
+.main--end_date{
+    font-weight: 700;
+font-size: 10.24px;
+}
+
+.main--description{
+margin: 0;
+font-size: 10.24px;
+width: 326px;
+padding-top:5px ;
+/* line-height: 150% */
+
+}
